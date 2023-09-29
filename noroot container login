@@ -1,0 +1,6 @@
+FROM ubuntu
+LABEL name="sathis"
+RUN apt-get update -y
+RUN apt-get install vim git -y
+RUN useradd -u 1001 sathis
+USER sathis
