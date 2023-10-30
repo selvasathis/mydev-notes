@@ -4,6 +4,8 @@ If you wish a variable to persist after you close the shell session, you need to
 in any user
 sudo vi .bash_profile
 
+run the file 
+source .bash_profile
 
 1. To set permanent environment variables for a single user, edit the .bashrc file:
 
