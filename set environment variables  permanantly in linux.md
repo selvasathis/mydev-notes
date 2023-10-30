@@ -1,6 +1,10 @@
 **Set an Environment Variable in Linux Permanently**
 If you wish a variable to persist after you close the shell session, you need to set it as an environmental variable permanently. You can choose between setting it for the current user or all users.
 
+in any user
+sudo vi .bash_profile
+
+
 1. To set permanent environment variables for a single user, edit the .bashrc file:
 
 > sudo nano ~/.bashrc
